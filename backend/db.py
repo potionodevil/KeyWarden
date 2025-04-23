@@ -16,7 +16,7 @@ class Core:
                            Column("name", String(50)),
                            Column("email", String(50)),
                            Column("password", String(50)),
-                           Column("2fa", Boolean),
+                           Column("two_fa", Boolean),
                            Column("Adress", String(50)),
                            Column("reset_code", String(100)))
 
